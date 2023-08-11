@@ -1,0 +1,85 @@
+{
+    "mata_kuliah": [
+      {
+        "kode" : "TIF3221357",
+        "nama": "Pengujian Perangkat Lunak",
+        "jumlah_sks": 3,
+        "jam_awal": 4,
+        "jam_akhir": 6,
+        "ruang" : "J0403",
+        "jadwal_kuliah": "Senin",
+        "dosen_pengampu": "Khanun Roisatul Ummah, S.Tr.T., M.Tr.Kom."
+      },
+      {
+        "kode" : "TIF3221353",
+        "nama": "Sistem Multimedia",
+        "jumlah_sks": 3,
+        "jam_awal": 10,
+        "jam_akhir": 12,
+        "ruang" : "JSEM2",
+        "jadwal_kuliah": "Senin",
+        "dosen_pengampu": "Khanun Roisatul Ummah, S.Tr.T., M.Tr.Kom."
+      },
+      {
+        "kode" : "TIF3221381",
+        "nama": "Kapita Selekta",
+        "jumlah_sks": 3,
+        "jam_awal": 7,
+        "jam_akhir": 9,
+        "ruang" : "J0410",
+        "jadwal_kuliah": "Selasa",
+        "dosen_pengampu": "Endang Wahyu Pamungkas, S.Kom., M.Kom."
+      },
+      {
+        "kode" : "TIF3221352",
+        "nama": "Pemrograman Perangkat Mobile",
+        "jumlah_sks": 3,
+        "jam_awal": 10,
+        "jam_akhir": 12,
+        "ruang" : "J0408",
+        "jadwal_kuliah": "Selasa",
+        "dosen_pengampu": "Devi Afriyantari Puspa Putri, S.Kom., M.Sc."
+      },
+      {
+        "kode" : "TIF1221251",
+        "nama": "Kewarganegaraan",
+        "jumlah_sks": 2,
+        "jam_awal": 9,
+        "jam_akhir": 10,
+        "ruang" : "JSEM2",
+        "jadwal_kuliah": "Rabu",
+        "dosen_pengampu": "Haryono Yuwono, Drs., M.Pd."
+      },
+      {
+        "kode" : "TIF3221355",
+        "nama": "Audit dan Tata Kelola Teknologi Informasi",
+        "jumlah_sks": 3,
+        "jam_awal": 1,
+        "jam_akhir": 3,
+        "ruang" : "J0407",
+        "jadwal_kuliah": "Kamis",
+        "dosen_pengampu": "Nurgiyatna, S.T., M.Sc., Ph.D."
+      },
+      {
+        "kode" : "TIF1221235",
+        "nama": "Organisasi dan Arsitektur Komputer",
+        "jumlah_sks": 2,
+        "jam_awal": 7,
+        "jam_akhir": 8,
+        "ruang" : "JSEM2",
+        "jadwal_kuliah": "Kamis",
+        "dosen_pengampu": "Helmi Imaduddin, S.Kom., M.Eng."
+      },
+      {
+        "kode" : "TIF1221131",
+        "nama": "Praktikum Pemrograman Web",
+        "jumlah_sks": 1,
+        "jam_awal": 5,
+        "jam_akhir": 6,
+        "ruang" : "LABRPL",
+        "jadwal_kuliah": "Jumat",
+        "dosen_pengampu": "Widi Widayat, S.Kom., M.Eng."
+      }
+    ]
+}
+  
