@@ -1,0 +1,52 @@
+Percobaan 1
+CREATE DATABASE Informatika
+
+Percobaan 2
+CREATE TABLE Mahasiswa (NIM varchar(10) PRIMARY KEY NOT NULL, Nama char(50) NULL, Kelas char(5) NULL, Alamat char(50) NULL)
+
+Percobaan 3
+INSERT INTO mahasiswa VALUES ('L200080001', 'Ari Wibowo', 'A', 'Solo')
+SELECt * FROM mahasiswa
+INSERT INTO mahasiswa (NIM, Nama, Kelas) VALUES ('L200080080', 'Agustina', 'B')
+SELECt * FROM mahasiswa
+
+Percobaan 4
+UPDATE mahasiswa SET Nama='Agustina Anggraini' WHERE Nama='Agustina'
+SELECt * FROM mahasiswa
+
+JOIN (TABEL + ISI)
+CREATE TABLE Nilai (
+    NIM varchar(10) PRIMARY KEY NOT NULL, 
+    Nama_MK varchar(20), 
+    Nilai_Angka int(3), 
+    Nilai_Huruf char(2))
+INSERT INTO nilai VALUES 
+    ('L200080002', 'Kapita Selekta', 60, 'BC'), 
+    ('L200080010', 'Pemrograman Web', 87, 'A'), 
+    ('L200080080', 'Pemrograman Web', 90, 'A')
+
+Percobaan 5
+SELECT mahasiswa.NIM, mahasiswa.Nama, nilai.Nama_MK, nilai.Nilai_Angka, nilai.Nilai_Huruf 
+FROM (mahasiswa JOIN nilai ON mahasiswa.NIM=nilai.NIM)
+
+Percobaan 6
+SELECT mahasiswa.NIM, mahasiswa.Nama, nilai.Nama_MK, nilai.Nilai_Angka, nilai.Nilai_Huruf 
+FROM (mahasiswa LEFT JOIN nilai ON mahasiswa.NIM=nilai.NIM)
+
+Percobaan 7
+SELECT mahasiswa.NIM, mahasiswa.Nama, nilai.Nama_MK, nilai.Nilai_Angka, nilai.Nilai_Huruf 
+FROM (mahasiswa RIGHT JOIN nilai ON mahasiswa.NIM=nilai.NIM)
+
+Percobaan 8
+SELECT AVG(Nilai_Angka) 'Rata-rata Nilai' FROM nilai
+
+Percobaan 9
+SELECT SUM(Nilai_Angka) 'Total Nilai' FROM nilai
+
+Percobaan 10
+CREATE VIEW KHS AS SELECT mahasiswa.NIM, nilai.Nama_MK, nilai.Nilai_Angka, nilai.Nilai_Huruf 
+FROM (mahasiswa INNER JOIN nilai ON mahasiswa.NIM=nilai.NIM)
+SELECT*FROM KHS
+
+Tugas no 2
+UPDATE mahasiswa SET Alamat='Sragen' WHERE NIM='L200080080'
